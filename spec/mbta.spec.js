@@ -17,7 +17,7 @@ describe('mbta', () => {
   })
 
   describe('Green Line', () => {
-    it('goes from "Haymarket" to "copley"', () => {
+    it('goes from "Haymarket" to "Copley"', () => {
       expect(mbta.stopsBetweenStations('Green', 'Government Center',
         'Green', 'Kenmore')).to.equal(6)
     })
