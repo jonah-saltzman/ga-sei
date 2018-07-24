@@ -4,6 +4,7 @@
 
 ## Prerequisites
 
+- [JS Reference Types](https://git.generalassemb.ly/ga-wdi-boston/js-reference-types)
 - [Sesame Street Subway Song](https://www.youtube.com/watch?v=mNBVTCJ9Dks)
 
 ## Objectives
