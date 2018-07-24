@@ -22,7 +22,7 @@
 
 ## Activity
 
-- Create a function in `lib/mbta.js` to calculate the number of stops between
+- Finish the function in `lib/mbta.js` to calculate the number of stops between
   stations on the "MBTA". Write additional functions used by this function as
   needed.
 - The function takes the line and stop that a rider is getting on at and the
