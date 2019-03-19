@@ -40,6 +40,21 @@ There are 3 subway lines:
 - All 3 subway lines intersect at *Park Street*, but there are no other
   intersection points. Some of this MBTA is fictionalized.
 
+The function will be invoked using the following pattern of arguments:
+
+`Start Line`, `Start Station`, `End Line`, `End Station`
+
+Here are some examples of how it might be invoked.
+
+```js
+stopsBetweenStations('Red', 'Alewife', 'Red', 'Alewife') // 0
+stopsBetweenStations('Red', 'Alewife', 'Red', 'South Station') // 7
+stopsBetweenStations('Red', 'South Station', 'Green', 'Kenmore') // 6
+```
+
+Note that the lines will be passed in as a single capitalized word ('Red',
+'Green', 'Orange'). This can also be seein in detail by running the tests.
+
 ## Hints
 
 - Assume good input.  Your function need not check the validity of the line or
@@ -66,9 +81,9 @@ This bonus is completely optional and does not have tests, yet.
 Developers should run these often!
 
 - `grunt nag` or just `grunt`: runs code quality analysis tools on your code
-    and complains.
-- `grunt reformat`: reformats all your code in a standard style.
-- `grunt test`: runs any automated tests; may depend on `grunt build`.
+  and complains.
+- `grunt make-standard`: reformats all your code in a standard style.
+- `grunt test`: runs any automated tests.
 
 ## [License](LICENSE)
 

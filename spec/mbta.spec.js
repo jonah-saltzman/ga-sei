@@ -14,6 +14,10 @@ describe('mbta', () => {
     it('trip from "Red" line "South Station" to "Red" line "Alewife" station', () => {
       expect(mbta.stopsBetweenStations('Red', 'South Station', 'Red', 'Alewife')).to.equal(7)
     })
+
+    it('trip from "Red" line "Alewife" to "Red" line "Davis" station', () => {
+      expect(mbta.stopsBetweenStations('Red', 'Alewife', 'Red', 'Davis')).to.equal(1)
+    })
   })
 
   describe('Green Line', () => {
