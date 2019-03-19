@@ -66,8 +66,8 @@ This bonus is completely optional and does not have tests, yet.
 Developers should run these often!
 
 - `grunt nag` or just `grunt`: runs code quality analysis tools on your code
-    and complains.
-- `grunt reformat`: reformats all your code in a standard style.
+  and complains.
+- `grunt make-standard`: reformats all your code in a standard style.
 - `grunt test`: runs any automated tests; may depend on `grunt build`.
 
 ## [License](LICENSE)
