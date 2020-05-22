@@ -21,14 +21,14 @@ describe('mbta', () => {
   })
 
   describe('Green Line', () => {
-    it('trip from "Green" line "Haymarket" station to "Green" line "Copley" station', () => {
+    it('trip from "Green" line "Government Center" station to "Green" line "Kenmore" station', () => {
       expect(mbta.stopsBetweenStations('Green', 'Government Center',
         'Green', 'Kenmore')).to.equal(6)
     })
 
-    it('trip from from "Green" line "Copley" station to "Green" line "Haymarket" station', () => {
-      expect(mbta.stopsBetweenStations('Green', 'Kenmore',
-        'Green', 'Government Center')).to.equal(6)
+    it('trip from from "Green" line "Copley" station to "Green" line "Park Street" station', () => {
+      expect(mbta.stopsBetweenStations('Green', 'Copley',
+        'Green', 'Park Street')).to.equal(3)
     })
   })
 
