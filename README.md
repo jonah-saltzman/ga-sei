@@ -69,12 +69,13 @@ Note that the lines will be passed in as a single capitalized word ('Red',
 
 ## Bonus
 
-Think about adding Haymarket before Government Center on the Green line then try
-to find a solution when there are multiple intersections.
+Add a new stop, Haymarket, right be Government Center on the Green line.
+Modify your function to find the fastest route between two stops.
+Consider if the trip can be made more than one way now that the Green and Orange lines have another intersection point.
 
-Is there a way to decide if a particular solution is "correct"?
+There are currently no tests for this challenge, but feel free to check out the code on the `solution` branch when you are completed.
 
-This bonus is completely optional and does not have tests, yet.
+This bonus is completely optional!
 
 ## Tasks
 
