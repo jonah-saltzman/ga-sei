@@ -69,7 +69,7 @@ Note that the lines will be passed in as a single capitalized word ('Red',
 
 ## Bonus
 
-Add a new stop, Haymarket, right be Government Center on the Green line.
+Add a new stop, Haymarket, right before Government Center on the Green line.
 Modify your function to find the fastest route between two stops.
 Consider if the trip can be made more than one way now that the Green and Orange lines have another intersection point.
 
