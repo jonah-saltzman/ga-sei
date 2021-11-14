@@ -1,0 +1,107 @@
+[
+{
+  "name": "South Station",
+  "line": "Red",
+  "connections": ["Park Street"]
+},
+{
+  "name": "Park Street",
+  "line": "Connection",
+  "connections": ["Kendall", "South Station", "Government Center", "Boylston", "Haymarket", "State"]
+},
+{
+  "name": "Kendall",
+  "line": "Red",
+  "connections": ["Park Street", "Central"]
+},
+{
+  "name": "Central",
+  "line": "Red",
+  "connections": ["Kendall", "Harvard"]
+},
+{
+  "name": "Harvard",
+  "line": "Red",
+  "connections": ["Central", "Porter"]
+},
+{
+  "name": "Porter",
+  "line": "Red",
+  "connections": ["Harvard", "Davis"]
+},
+{
+  "name": "Davis",
+  "line": "Red",
+  "connections": ["Porter", "Alewife"]
+},
+{
+  "name": "Alewife",
+  "line": "Red",
+  "connections": ["Davis"]
+},
+{
+  "name": "Government Center",
+  "line": "Green",
+  "connections": ["Park Street"]
+},
+{
+  "name": "Boylston",
+  "line": "Green",
+  "connections": ["Park Street", "Arlington"]
+},
+{
+  "name": "Arlington",
+  "line": "Green",
+  "connections": ["Boylston", "Copley"]
+},
+{
+  "name": "Copley",
+  "line": "Green",
+  "connections": ["Arlington", "Hynes"]
+},
+{
+  "name": "Hynes",
+  "line": "Green",
+  "connections": ["Copley", "Kenmore"]
+},
+{
+  "name": "Kenmore",
+  "line": "Green",
+  "connections": ["Hynes"]
+},
+{
+  "name": "North Station",
+  "line": "Orange",
+  "connections": ["Haymarket"]
+},
+{
+  "name": "Haymarket",
+  "line": "Orange",
+  "connections": ["North Station", "Park Street"]
+},
+{
+  "name": "State",
+  "line": "Orange",
+  "connections": ["Park Street", "Downtown Crossing"]
+},
+{
+  "name": "Downtown Crossing",
+  "line": "Orange",
+  "connections": ["State", "Chinatown"]
+},
+{
+  "name": "Chinatown",
+  "line": "Orange",
+  "connections": ["Downtown Crossing", "Back Bay"]
+},
+{
+  "name": "Back Bay",
+  "line": "Orange",
+  "connections": ["Chinatown", "Forest Hills"]
+},
+{
+  "name": "Forest Hills",
+  "line": "Orange",
+  "connections": ["Back Bay"]
+}
+]
